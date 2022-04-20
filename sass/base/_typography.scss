@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6, a, p{
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
 }
 
 h1, h2, h3, h4 {
@@ -20,7 +20,7 @@ h1 {
     text-decoration: none;
 }
 
-h2 {
+h2, {
     font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
@@ -31,7 +31,7 @@ h4 {
     text-decoration: none;
 }
 
-a {
+a, ul, p{
     -webkit-transition: 300ms;
     -moz-transition: 300ms;
     -o-transition: 300ms;

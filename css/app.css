@@ -377,7 +377,7 @@ video {
 }
 
 h1, h2, h3, h4, h5, h6, a, p {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0deg, 0%, 0%);
 }
 
 h1, h2, h3, h4 {
@@ -409,7 +409,7 @@ h4 {
   text-decoration: none;
 }
 
-a {
+a, ul, p {
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
@@ -417,18 +417,51 @@ a {
   text-decoration: none;
   transition: 300ms;
 }
-a:hover, a:focus {
+a:hover, a:focus, ul:hover, ul:focus, p:hover, p:focus {
   outline: none;
   text-decoration: none;
   outline-offset: 0;
 }
 
-.desktop-five-columns {
+.cabecera {
+  background-color: white;
+  padding: 0.5rem 5%;
+  width: 90%;
+}
+.cabecera .cabecera-logo {
   display: flex;
   justify-content: space-between;
+  width: 60%;
+}
+.cabecera .cabecera-logo .cabecera-logo-titulo {
+  padding: 5% 5%;
+}
+.cabecera .cabecera-logo .cabecera-logo-imagen svg {
+  width: 5rem;
+}
+.cabecera .cabecera-logo .cabecera-logo-imagen svg .st0 {
+  fill: none;
+}
+.cabecera .cabecera-logo .cabecera-logo-imagen svg .st1 {
+  fill: none;
+  stroke: url(#SVGID_1_);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.cabecera .cabecera-menu ul {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 5% 5%;
+}
+
+.desktop-two-columns {
+  display: flex;
+  justify-content: space-betwe;
   width: 100%;
 }
-.desktop-five-columns > .column {
+.desktop-two-columns > .column {
   width: 18%;
 }
 
@@ -478,6 +511,54 @@ a:hover, a:focus {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.banner-titulo {
+  position: absolute;
+  top: 16%;
+  left: 2%;
+  font-size: 2em;
+}
+
+.banner-boton {
+  position: absolute;
+  top: 23%;
+  left: 2%;
+  font-size: 1.5em;
+}
+
+.boxes {
+  padding: 5% 3%;
+}
+
+.box {
+  background-color: #A1E8E8;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.info {
+  padding: 5% 6%;
+  line-height: 1.5em;
+}
+
+.info-button {
+  padding-top: 5%;
+  font-size: 1.5em;
+}
+
+.info-image {
+  padding-left: 20%;
+}
+
+.footer {
+  background-color: #A1E8E8;
+  padding: 2rem;
+}
+
+.social-media img {
+  width: 25%;
+  margin-left: 70%;
 }
 
 /*# sourceMappingURL=app.css.map */
