@@ -377,7 +377,7 @@ video {
 }
 
 h1, h2, h3, h4, h5, h6, a, p {
-  color: hsl(0deg, 0%, 0%);
+  color: black;
 }
 
 h1, h2, h3, h4 {
@@ -388,7 +388,7 @@ h5, h6 {
   font-family: "Ubuntu Condensed", sans-serif;
 }
 
-a, td, th, p, button, span, label, select, input, textarea, li {
+a, td, th, p, span, label, select, input, textarea, li {
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -423,8 +423,16 @@ a:hover, a:focus, ul:hover, ul:focus, p:hover, p:focus {
   outline-offset: 0;
 }
 
+button {
+  background-color: #3EC9E1;
+  color: BLACK;
+  border-radius: 1em;
+  border-color: #3EC9E1;
+  font-weight: 600;
+}
+
 .cabecera {
-  background-color: white;
+  background-color: #7495DF;
   padding: 0.5rem 5%;
   width: 90%;
 }
@@ -458,7 +466,7 @@ a:hover, a:focus, ul:hover, ul:focus, p:hover, p:focus {
 
 .desktop-two-columns {
   display: flex;
-  justify-content: space-betwe;
+  justify-content: space-between;
   width: 100%;
 }
 .desktop-two-columns > .column {
@@ -529,6 +537,7 @@ a:hover, a:focus, ul:hover, ul:focus, p:hover, p:focus {
 
 .boxes {
   padding: 5% 3%;
+  background-color: #7495DF;
 }
 
 .box {
@@ -538,7 +547,10 @@ a:hover, a:focus, ul:hover, ul:focus, p:hover, p:focus {
 }
 
 .info {
-  padding: 5% 6%;
+  padding: 2rem 10%;
+}
+
+.info-text {
   line-height: 1.5em;
 }
 
@@ -547,18 +559,93 @@ a:hover, a:focus, ul:hover, ul:focus, p:hover, p:focus {
   font-size: 1.5em;
 }
 
-.info-image {
-  padding-left: 20%;
-}
-
 .footer {
   background-color: #A1E8E8;
   padding: 2rem;
+  display: flex;
 }
 
 .social-media img {
   width: 25%;
   margin-left: 70%;
+}
+
+.contact {
+  background-color: #A1E8E8;
+}
+
+.contact, h2, label {
+  color: black;
+}
+
+.contact-informacion-text svg {
+  width: 2rem;
+}
+
+.contact-formulario label {
+  font-family: Helvetica;
+  font-size: 2rem;
+}
+
+.contact-titulo {
+  border-top: 2px solid #000000;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.contact-titulo h2 {
+  font-size: 2rem;
+}
+
+.contact-formulario-one {
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+}
+.contact-formulario-one input {
+  height: 1.5rem;
+}
+
+.contact-formulario-two {
+  padding-right: 7rem;
+  margin-bottom: 1rem;
+}
+.contact-formulario-two input {
+  height: 1.5rem;
+}
+
+.contact-informacion {
+  padding-left: 20%;
+  margin-bottom: 14.3rem;
+}
+.contact-informacion .contact-informacion-text {
+  margin-bottom: 1.5rem;
+}
+.contact-informacion .contact-informacion-text span {
+  font-size: 2rem;
+}
+
+.contact-formulario-area {
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contact-formulario-button {
+  padding-left: 63%;
+}
+.contact-formulario-button button {
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  font-family: inherit;
+  font-size: 20px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 0.7em 1em;
+  padding-left: 1em;
+  display: flex;
+}
+.contact-formulario-button button:active {
+  transform: scale(2);
 }
 
 /*# sourceMappingURL=app.css.map */

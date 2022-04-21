@@ -1,26 +1,27 @@
 h1, h2, h3, h4, h5, h6, a, p{
-    color: hsl(0, 0%, 0%);
+    color:black;
 }
 
 h1, h2, h3, h4 {
     font-family: $font-stack;
+
 }
 
 h5, h6 {
     font-family: $font-stack-condensed;
 }
 
-a, td, th, p, button, span, label, select, input, textarea, li{
+a, td, th, p, span, label, select, input, textarea, li{
     font-family: $font-stack;
 }
 
-h1 {
+h1{
     font-size: 2.5rem;
     font-weight: 600;
     text-decoration: none;
 }
 
-h2, {
+h2 {
     font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
@@ -45,3 +46,16 @@ a, ul, p{
         outline-offset: 0;
     }
 }
+
+button{
+ 
+    background-color:#3EC9E1;
+    color:BLACK ;
+    border-radius:1em;
+    border-color:#3EC9E1;
+    font-weight: 600;
+  
+}
+
+
+

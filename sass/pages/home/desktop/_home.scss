@@ -14,6 +14,7 @@
 
 .boxes{
     padding:5% 3%;
+    background-color:#7495DF ;
 }
 
 .box{
@@ -22,9 +23,13 @@
     line-height:1.5em ;
 }
 
-.info {
-    padding: 5% 6%;
+.info{
+    padding: 2rem 10%;
+}
+
+.info-text {
     line-height: 1.5em;
+ 
 }
 
 .info-button{
@@ -32,24 +37,17 @@
     font-size: 1.5em;
 }
 
-
-
-.info-image{
-    padding-left: 20%;
-}
-
-
 .footer{
     background-color:#A1E8E8;
     padding: 2rem;
+    display:flex;
 }
+
+
 
 .social-media img{
     width:25%;
     margin-left: 70%;
-
 }
-
-
 
 
