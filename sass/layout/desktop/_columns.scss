@@ -1,4 +1,4 @@
-.desktop-two-columns{
+.desktop-five-columns{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -48,7 +48,7 @@
     }
 
     & > .column-main{
-        width: 75%;
+        width: 80%;
     }
 }
 

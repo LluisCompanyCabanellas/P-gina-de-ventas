@@ -1,96 +1,40 @@
-
 .contact{
-    background-color:#A1E8E8 ;
-}
 
-.contact, h2, label{
-    color:black;
-}
+    background-color:#A1E8E8;
+    min-height: 75vh;
 
-
-
-.contact-informacion-text svg{
-    width: 2rem;
-}
-
-.contact-formulario label{
-    font-family: Helvetica;
-    font-size: 2rem;
-}
-
-
-.contact-titulo{
-    border-top: 2px solid #000000;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    text-align: center;
-
-    h2{
-        font-size: 2rem;
-    }
-}
-
-
-
-
-.contact-formulario-one{
-    padding-left: 3rem;
-    margin-bottom: 1rem;
-    input{
-        height: 1.5rem;
-    }
-}
-
-.contact-formulario-two{
-    padding-right: 7rem;
-    margin-bottom: 1rem;
-    input{
-        height: 1.5rem;
-    }
-}
-
-
-
-.contact-informacion{
-    padding-left: 20%;
-    margin-bottom: 14.3rem;
-
-    .contact-informacion-text{
-        margin-bottom: 1.5rem;
-
-        span{
+    .contact-titulo{
+        
+        padding: 2rem 0;
+        text-align: center;
+    
+        h2{
             font-size: 2rem;
+        }
+    }
+
+    .contact-options{
+
+        padding: 2rem 10%;
+        width: 80%;
+
+        .contact-informacion-text{
+
+            margin-bottom: 1rem;
+
+            svg{
+                margin-right: 2rem;
+                width: 2rem;
+            }
+
+            span{
+                font-size: 1.5rem;
+            }
         }
     }
 }
 
 
-.contact-formulario-area{
-    padding-left:3rem;
-    margin-bottom: 1rem;
-}
 
-.contact-formulario-button{
-   
-button {
-   
-    align-items: center;
-    border: none;
-    border-radius: 30px;
-    font-family: inherit;
-    font-size: 20px;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 0.7em 1em;
-    padding-left: 1em;
-    display: flex;
-    
-   }
-   
 
-   button:active {
-    transform: scale(2);
-   }
-  
-    padding-left: 63%;
-}
+

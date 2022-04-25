@@ -1,0 +1,42 @@
+
+.product{
+    padding: 2rem 5%;
+
+    .product-image{
+        margin-bottom: 2rem;
+    }
+
+    .product-content{
+
+        padding: 1% 5%;
+
+        
+        .product-title{
+            margin-bottom: 5%;
+        }
+
+        .product-button-one{
+            display: flex;
+            margin-left: 5%;
+            margin-bottom:3%;
+        }
+
+        .product-quantity{
+            display: flex;
+            
+        }
+
+
+        
+    }
+}
+
+.product.button.two{
+    margin-top: 5%;
+}
+
+.product-description ul li{
+    margin-bottom: 5%;
+
+}
+
