@@ -1,8 +1,122 @@
+
+
+
+.cabecera-logo-titulo{
+    text-align: center;
+}
+
+.cabecera-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxes{
+    width: 80%;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin-bottom: 2rem;
+
+
+.box{
+    box-shadow: 0px 0px 10px 0px #333 inset;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.box-description{
+    line-height:2em;
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info{
+    background-color: hsl(0, 0%, 100%);
+    justify-content: space-between;
+    padding: 2rem 10%;
+
+    .info-button{
+    padding: 15%;
+    }
+}
+
+
+.social-media{
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
 .banner-titulo{
-   
-  width: 20%;
+    position:absolute;
+    top: 16%;
     left:2%;
     font-size:2em;   
+ 
 }
     
 .banner-boton{
@@ -53,8 +167,10 @@
 }
 
 .social-media img{
-    width:25%;
-    margin-left: 70%;
+    width:50%;
+    margin-left: 60%;
+    margin-top: 50%;
 }
 
 
+*/
