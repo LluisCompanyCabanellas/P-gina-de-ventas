@@ -432,6 +432,93 @@ button {
   font-weight: 600;
 }
 
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: revert;
+}
+
+header .cabecera-logo {
+  display: flex;
+}
+header .cabecera-logo-imagen svg {
+  width: 5rem;
+}
+header .cabecera-logo-imagen svg .st0 {
+  fill: none;
+}
+header .cabecera-logo-imagen svg .st1 {
+  fill: none;
+  stroke: url(#SVGID_1_);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+header .cabecera-logo-titulo {
+  padding: 5% 5%;
+}
+header .cabecera-menu-mobile {
+  background-color: hsl(0deg, 0%, 100%);
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: -100vh;
+  transition: top 0.5s;
+  width: 100%;
+  line-height: 3em;
+  text-align: center;
+}
+header .cabecera-menu-mobile.active {
+  top: 0;
+  transition: top 2s;
+}
+header .cabecera-menu ul {
+  padding: 3% 3%;
+}
+header .cabecera-principal-boton-menu {
+  width: 10%;
+  margin-top: 6%;
+}
+header .menu-hamburger-button-svg {
+  fill: rgb(0, 0, 0);
+  pointer-events: all;
+  cursor: pointer;
+}
+header .menu-hamburger-button-svg .bar {
+  -webkit-transform: rotate(0) translateY(0) translateX(0);
+  transform: rotate(0) translateY(0) translateX(0);
+  opacity: 1;
+  -webkit-transform-origin: 20px 10px;
+  transform-origin: 20px 10px;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+  transition: transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+}
+header .menu-hamburger-button-svg .bar:nth-of-type(1) {
+  -webkit-transform-origin: 20px 10px;
+  transform-origin: 20px 10px;
+}
+header .menu-hamburger-button-svg .bar:nth-of-type(3) {
+  -webkit-transform-origin: 20px 20px;
+  transform-origin: 20px 20px;
+}
+header .menu-hamburger-button-svg.active .bar:nth-of-type(1) {
+  -webkit-transform: rotate(-45deg) translateY(0) translateX(0);
+  transform: rotate(-45deg) translateY(0) translateX(0);
+}
+header .menu-hamburger-button-svg.active .bar:nth-of-type(2) {
+  opacity: 0;
+}
+header .menu-hamburger-button-svg.active .bar:nth-of-type(3) {
+  -webkit-transform: rotate(45deg) translateY(0em) translateX(0em);
+  transform: rotate(45deg) translateY(0em) translateX(0em);
+}
+
+.menu-hamburger-button svg {
+  width: 5em;
+  padding: 1em 1em 1em 8em;
+}
 .mobile-five-columns {
   display: flex;
   justify-content: space-between;
@@ -476,13 +563,13 @@ button {
   width: 100%;
 }
 
-.cabecera-logo-titulo {
-  text-align: center;
+.banner-titulo {
+  padding: 7% 5%;
 }
 
-.cabecera-menu {
-  display: flex;
-  justify-content: space-between;
+.banner-boton {
+  padding: 5% 5%;
+  text-align: center;
 }
 
 .boxes {
