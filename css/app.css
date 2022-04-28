@@ -439,6 +439,14 @@ body {
   height: 100vh;
 }
 
+.desktop-only {
+  display: revert;
+}
+
+.mobile-only {
+  display: none;
+}
+
 .cabecera {
   background-color: #7495DF;
   padding: 0.5rem 5%;
@@ -835,6 +843,54 @@ input {
 }
 .contact .contact-options .contact-informacion-text span {
   font-size: 1.5rem;
+}
+
+.filters {
+  width: 100%;
+  background-color: #A1E8E8;
+  text-align: center;
+}
+.filters svg {
+  margin-top: 2rem;
+  width: 2.5rem;
+  color: hsl(0deg, 0%, 0%);
+}
+
+.menu {
+  padding-left: 70%;
+  padding-top: 0.5rem;
+}
+
+.panel {
+  background-color: #7495DF;
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+
+.panel-table {
+  color: rgb(0, 0, 0);
+  padding-left: 15%;
+  padding-top: 2%;
+}
+.panel-table table {
+  text-align: center;
+  width: 90%;
+}
+.panel-table table th {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+.panel-table table td {
+  padding-top: 1rem;
+  font-style: italic;
+}
+
+.panel-button-table {
+  cursor: pointer;
+}
+.panel-button-table svg {
+  color: rgb(0, 0, 0);
+  width: 1.5rem;
 }
 
 /*# sourceMappingURL=app.css.map */
