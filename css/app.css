@@ -687,6 +687,7 @@ form .form-send-button button:active {
 }
 .product .product-content .product-quantity {
   display: flex;
+  padding: 5% 0;
 }
 
 .product.button.two {
@@ -695,6 +696,29 @@ form .form-send-button button:active {
 
 .product-description ul li {
   margin-bottom: 5%;
+}
+
+.tabMenu {
+  display: flex;
+  justify-content: space-between;
+}
+.tabMenu button {
+  padding: 3%;
+}
+
+.tabs {
+  display: flex;
+}
+.tabs .tab {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  top: 5px;
+  padding: 10px 25px;
+  background: #A1E8E8;
+}
+.tabs .tab.active {
+  background-color: white;
 }
 
 .carrito {
