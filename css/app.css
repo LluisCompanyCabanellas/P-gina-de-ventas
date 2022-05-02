@@ -706,19 +706,29 @@ form .form-send-button button:active {
   padding: 3%;
 }
 
-.tabs {
+.tabs-contenedor .tabs {
+  background-color: #A1E8E8;
   display: flex;
 }
-.tabs .tab {
+.tabs-contenedor .tabs .tab {
   cursor: pointer;
   display: block;
   position: relative;
-  top: 5px;
   padding: 10px 25px;
   background: #A1E8E8;
 }
-.tabs .tab.active {
+.tabs-contenedor .tabs .tab.active {
+  background-color: rgb(255, 255, 255);
+}
+.tabs-contenedor .tabs-contents {
   background-color: white;
+  padding: 1rem 0.5rem;
+}
+.tabs-contenedor .tabs-contents .tab-content {
+  display: none;
+}
+.tabs-contenedor .tabs-contents .tab-content.active {
+  display: block;
 }
 
 .carrito {
