@@ -1,22 +1,30 @@
 export let botonSumarRestar = () => {
 
-let minus = document.getElementsByClassName(".minus");
-let plusMinusInput = document.getElementsByClassName(".plus-minus-input");
-let plus = document.getElementsByClassName(".plus");
+    let minuses = document.getElementsByClassName("minus");
+    let plusMinusInput = document.getElementsByClassName("plus-minus-input");
+    let pluses = document.getElementsByClassName("plus");
 
+    pluses.forEach(plus => {
 
-plus.addEventListener("click", () => {
+        plus.addEventListener("click", () => {
+    
+            plusMinusInput.value = (parseInt(plusMinusInput.value) + 1);
+        });
+    });
+        
+    minuses.forEach(minus => {
 
-    plusMinusInput.value = (parseInt(plusMinusInput.value) + 1);
-});
-
-minus.addEventListener("click", () =>{
-
-    if(plusMinusInput.value > 1) {
-        plusMinusInput.value = (parseInt(plusMinusInput.value) - 1);
-    }
-});
-
+        minus.addEventListener("click", () =>{
+        
+            if(plusMinusInput.value > 1) {
+                plusMinusInput.value = (parseInt(plusMinusInput.value) - 1);
+            }
+        });
+        
+    
+    });
 }
+
+
 
 

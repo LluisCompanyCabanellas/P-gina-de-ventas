@@ -1,10 +1,8 @@
 export let tabs = () => {
 
-let tabs = document.querySelectorAll(".tab");
-let tabContents = document.querySelectorAll(".tab-content");
+    let tabs = document.querySelectorAll(".tab");
+    let tabContents = document.querySelectorAll(".tab-content");
 
-
-if(tabs) {
     tabs.forEach(tab =>{
 
         tab.addEventListener("click", () => {
@@ -23,18 +21,10 @@ if(tabs) {
                 else{
                     tabContent.classList.remove("active");
                     
-                }
-
-                
+                }            
             });
         });
     });
-}
 
 }
-
-
-
-
-
 
