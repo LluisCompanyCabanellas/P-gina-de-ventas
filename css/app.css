@@ -731,6 +731,25 @@ form .form-send-button button:active {
   display: block;
 }
 
+.notification {
+  position: absolute;
+  left: 6%;
+  bottom: 15%;
+  display: none;
+  color: black;
+  background-color: #00ff37;
+  font-size: 2.5em;
+}
+.notification.active {
+  display: block;
+}
+.notification.error {
+  background-color: hsl(0deg, 100%, 50%);
+}
+.notification.success {
+  background-color: rgb(23, 156, 34);
+}
+
 .carrito {
   background-color: #7495DF;
   min-height: 80vh;

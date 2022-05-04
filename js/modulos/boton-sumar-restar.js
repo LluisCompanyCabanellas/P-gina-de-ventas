@@ -8,25 +8,25 @@ export let botonSumarRestar = () => {
     pluses.forEach(plus => {
         plus.addEventListener("click", () => {
     
-            console.log(plus.parentNode.querySelector('.'));
+            console.log(plus.parentNode.querySelector('.plus-minus-input'));
 
-            let father = plus.parentNode;
-            parseInt(father.querySelector()+1)
+            let input = plus.parentNode.querySelector('.plus-minus-input')
+            input.value = parseInt(input.value) + 1;
             
         });
     });
         
-    
-
     minuses.forEach(minus=> {
 
         minus.addEventListener("click", () => {
 
-            console.log(minus.parentNode.querySelector(''));
+            let input = minus.parentNode.querySelector('.plus-minus-input')
 
-            .value = (parseInt(.value) -1)
-
-
+            if(input.value > 1){
+                input.value = (parseInt(input.value)) - 1;
+            }
         });
     });
 }
+
+
