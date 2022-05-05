@@ -1,14 +1,25 @@
-export let message = (message, type) => {
+export let message = () => {
+
+    document.addEventListener("message", (event =>{
+
 
     let notification = document.querySelector(".notification");
-    notification.classList.add("active");
+    let message = document.querySelector(".notification-message")
+
+    
+    message.innerHTML = event.detail.text;
+    notification.classList.add(event.detail.type);
+
 
     setTimeout(function(){
-        notification.classList.remove("active");
+        notification.classList.remove(event.detail.type);
     }, 5000)
 
-    notification.innerHTML = message
-    notification.classList.add(type);
+}));
 
 }
+
+
+
+
 

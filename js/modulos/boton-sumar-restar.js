@@ -22,9 +22,9 @@ export let botonSumarRestar = () => {
 
             let input = minus.parentNode.querySelector('.plus-minus-input')
 
-            if(input.value > 1){
+             if(input.value > 1){
                 input.value = (parseInt(input.value)) - 1;
-            }
+             }
         });
     });
 }
