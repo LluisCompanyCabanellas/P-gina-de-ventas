@@ -49,13 +49,11 @@
 
     <main>
         <div class="filters">
-                <svg viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M11 11L16.76 3.62A1 1 0 0 0 16.59 2.22A1 1 0 0 0 16 2H2A1 1 0 0 0 1.38 2.22A1 1 0 0 0 1.21 3.62L7 11V16.87A1 1 0 0 0 7.29 17.7L9.29 19.7A1 1 0 0 0 10.7 19.7A1 1 0 0 0 11 18.87V11M13 16L18 21L23 16Z" />
-                </svg>
+            <svg viewBox="0 0 24 24">
+                <path fill="currentColor" d="M11 11L16.76 3.62A1 1 0 0 0 16.59 2.22A1 1 0 0 0 16 2H2A1 1 0 0 0 1.38 2.22A1 1 0 0 0 1.21 3.62L7 11V16.87A1 1 0 0 0 7.29 17.7L9.29 19.7A1 1 0 0 0 10.7 19.7A1 1 0 0 0 11 18.87V11M13 16L18 21L23 16Z" />
+            </svg>
         </div>   
     <div class="panel">
-        
-
         <div class="desktop-two-columns-aside-panel">
             <div class="column-aside">
                 <div class="panel-form">
@@ -104,7 +102,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="desktop-one-column">
+                        <div class="desktop-two-columns">
                             <div class="column">
                                 <div class="form-element">
                                     <div class="form-element-label">
@@ -114,20 +112,19 @@
                                         <input type="text">
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="desktop-one-column">
-                            <div class="column">
-                                <div class="form-element">
-                                    <div class="form-element-label">
-                                        <label>Repetir contraseña</label>
-                                    </div>
-                                    <div class="form-element-input">
-                                        <input type="text">
+                                <div class="column">
+                                    <div class="form-element">
+                                        <div class="form-element-label">
+                                            <label>Repetir contraseña</label>
+                                        </div>
+                                        <div class="form-element-input">
+                                            <input type="text">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                      
                     </form>
                     <div class="panel-form-buttons">
                         <div class="desktop-two-columns">
@@ -140,9 +137,12 @@
                                             </svg>
                                         </div>
                                       </div>
+                                      <div class="confirmation">
                                       <span>Añadir Usuario</span>
+                                      </div>
                                 </button>
                             </div>
+                            
                             <div class="column">
                                 <button>
                                     <div class="svg-wrapper-1">
@@ -152,13 +152,40 @@
                                             </svg>
                                         </div>
                                       </div>
-                                      <span>Guardar</span>
+                                      <div class="confirmation">
+                                        <span>Guardar</span>
+                                      </div>
+                                      
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+              <div class="desktop-one-column">
+                            <div class="column">
+                                <div class="form-element">
+                                    <div class="form-element-label">
+                                        <label>Comentarios</label>
+                                    </div>
+                                    <div class="form-element-input">
+                                        <textarea class="ckeditor"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="desktop-one-column">
+                            <div class="column">
+                                <div class="form-element">
+                                    <div class="form-element-label">
+                                        <label>Comentarios</label>
+                                    </div>
+                                    <div class="form-element-input">
+                                        <textarea class="ckeditor"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             <div class="column-main">
                 <div class="panel-table">
                     <table>
@@ -291,6 +318,8 @@
      
     </footer>
     
+    <script type="module" src="dist/app.js"></script>
+
 </body>
 </html>
 

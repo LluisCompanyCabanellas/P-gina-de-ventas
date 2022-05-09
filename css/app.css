@@ -920,8 +920,7 @@ input {
 
 .panel {
   background-color: #7495DF;
-  padding-left: 5rem;
-  padding-top: 2rem;
+  padding: 5% 5% 5% 10%;
 }
 
 .panel-table {
