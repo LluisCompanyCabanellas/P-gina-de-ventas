@@ -631,11 +631,6 @@ form .form-send-button button:active {
   display: flex;
 }
 
-.social-media img {
-  width: 25%;
-  margin-left: 70%;
-}
-
 .categories {
   background-color: #7495DF;
   min-height: 100vh;

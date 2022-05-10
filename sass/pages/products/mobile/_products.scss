@@ -1,0 +1,84 @@
+
+
+.cabecera-menu ul{
+  justify-content: space-between;
+  text-align: center;
+li{
+    margin-top:5%;
+}
+    
+   
+}
+
+
+.categories{
+    background-color: #7495DF;
+    min-height: 15vh;
+  
+   
+
+    .categories-elements ul{
+        margin-left: 5%;
+        justify-content: space-between;
+        padding: 5% 5% 5% 0;
+        
+    }
+
+    .categories-title{
+        padding:2% 0 2% 4%;
+        
+    }
+
+    .categories-elements{
+
+        ul li{
+            cursor: pointer;
+        }
+    }
+}
+
+.products-gallery{
+    
+   background-color:#A1E8E8 ;
+   padding: 1.5rem 15%;
+
+   .product{
+        
+        border: 3px solid black;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        min-height: 35vh;
+
+        .product-description{
+            min-height: 10vh;
+            padding: 5% 0%;
+        }
+
+        
+        .product-price {
+
+            span{
+                font-weight: 600;
+                font-size: 2.2em;
+            }
+        }
+    }
+}
+
+
+.social-media{
+  
+    padding:0 8% 5% 4%;
+}
+
+
+.text-footer{
+    padding: 5% 8% 5% 4%;
+}
+
+
+
+
+
+
+
