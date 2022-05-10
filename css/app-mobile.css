@@ -505,7 +505,6 @@ header .menu-hamburger-button-svg .bar:nth-of-type(3) {
 }
 header .menu-hamburger-button svg {
   width: 4em;
-  margin-left: 9em;
 }
 header .menu-hamburger-button svg .menu-hamburger-button-svg.active .bar:nth-of-type(1) {
   -webkit-transform: rotate(-45deg) translateY(0) translateX(0);
@@ -619,6 +618,11 @@ header .menu-hamburger-button svg .menu-hamburger-button-svg.active .bar:nth-of-
   padding: 0 8% 5% 10%;
 }
 
+.menu-hamburger-button {
+  position: absolute;
+  margin-left: 35%;
+}
+
 /*
 
 
@@ -692,6 +696,11 @@ header .menu-hamburger-button svg .menu-hamburger-button-svg.active .bar:nth-of-
 }
 .cabecera-menu ul li {
   margin-top: 5%;
+}
+
+.menu-hamburger-button {
+  position: absolute;
+  margin-left: 35%;
 }
 
 .categories {
