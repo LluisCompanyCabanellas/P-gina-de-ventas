@@ -59,13 +59,15 @@ h2{
 }
 
 
-.faq-question{
 
-  svg :active{
-    transform:rotate(1000dg);
-    color:red
 
-    
+
+.faq-stick {
+
+
+  :active svg{
+
+    transform:rotate(100deg);
+
   }
- 
 }
