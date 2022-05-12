@@ -5,6 +5,7 @@ import { botonSumarRestar } from './modulos/boton-sumar-restar.js';
 import { product } from './modulos/product.js';
 import { message } from './modulos/message.js';
 import { renderCkeditor } from './modulos/ckeditor.js';
+import {carrito} from './modulos/carrito-añadir.js';
 
 
 faq();
@@ -14,4 +15,5 @@ tabs();
 product();
 message();
 renderCkeditor();
+carrito();
 

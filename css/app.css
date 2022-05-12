@@ -631,6 +631,17 @@ form .form-send-button button:active {
   display: flex;
 }
 
+.cabecera-menu-carrito {
+  width: 3%;
+  position: absolute;
+  margin-left: 25%;
+}
+
+.contador {
+  margin-left: 70%;
+  margin-top: 1%;
+}
+
 .categories {
   background-color: #7495DF;
   min-height: 100vh;
