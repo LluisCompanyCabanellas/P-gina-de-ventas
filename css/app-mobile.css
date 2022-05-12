@@ -585,8 +585,7 @@ header .menu-hamburger-button svg .menu-hamburger-button-svg.active .bar:nth-of-
 }
 
 .boxes {
-  width: 80%;
-  padding: 5% 3% 5%;
+  width: 90%;
 }
 .boxes .box {
   box-shadow: 0px 0px 10px 0px #333 inset;
@@ -619,8 +618,8 @@ header .menu-hamburger-button svg .menu-hamburger-button-svg.active .bar:nth-of-
 }
 
 .menu-hamburger-button {
-  position: absolute;
-  margin-left: 35%;
+  width: 5em;
+  margin-left: 8em;
 }
 
 /*
